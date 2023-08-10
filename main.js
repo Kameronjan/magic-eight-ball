@@ -1,14 +1,12 @@
 let userName = "Kameron";
 
-userName ? console.log(`Hello, ${userName}`) : console.log(`Hello!`);
+userName ? console.log(`Hello, ${userName}!`) : console.log(`Hello!`);
 
 let userQuestion =  `Will I have a baby anytime soon?`;
 
 console.log(`${userName} has asked - ${userQuestion}`);
 
 let randomNumber = Math.floor(Math.random() * 8);
-
-console.log(randomNumber);
 
 let eightBall = '';
 
