@@ -1,3 +1,3 @@
 let userName = '';
 
-console.log(userName);
+userName !== '' ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
