@@ -1,3 +1,5 @@
+let userName = "Kameron";
+
 userName ? console.log(`Hello, ${userName}`) : console.log(`Hello!`);
 
 let userQuestion =  `Will I have a baby anytime soon?`;
@@ -37,6 +39,4 @@ switch (randomNumber) {
     break;
 }
 
-userName !== "" ? console.log(`Hello, ${userName}!`) : console.log("Hello!");
-
-console.log(eightBall);
+console.log(`The magic 8 ball says ${eightBall}.`);
